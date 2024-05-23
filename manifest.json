@@ -6,7 +6,6 @@
 
   "background": {
     "scripts": ["src/i_sort_you_not.js"],
-    "persistent": false,
     "type": "module"
   },
 

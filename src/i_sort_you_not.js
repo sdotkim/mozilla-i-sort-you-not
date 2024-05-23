@@ -6,9 +6,6 @@ const builtInItems = [
     "mobile______"
 ]
 
-
-const BOOKMARK_MENU_ITEM_ID = "bookmark-menu-item";
-
 const getBookmark = function getBookmarkTreeNode(bookmarkId) {
     return browser.bookmarks.get(bookmarkId);
 }
@@ -50,7 +47,6 @@ const sortBookmarks = async function sortBookmakrTree(bookmarkId, direction, for
                 } else {
                     urls.push(child)
                 }
-                console.log(`[${child.index}][${child.type}] ${child.title} ${child.url}`)
             }
 
             other.sort(sortByTitle)
