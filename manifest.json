@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "i-sort-you-not",
+  "description": "Bookmars sorter",
+
+  "background": {
+    "scripts": ["src/i_sort_you_not.js"],
+    "persistent": false,
+    "type": "module"
+  },
+
+  "permissions": [
+    "bookmarks",
+    "contextualIdentities",
+    "menus"
+  ]
+}
